@@ -18,19 +18,21 @@ if(isset($_POST['contactName']) && isset($_POST['contactMsg'])){
 <header><h2>Azure Deployment Test | Contact</h2></header>
 <nav><a href="index.html">Home</a> &nbsp; <a href="contact.php">Contact</a> </nav>
 <div>
-    <form action="contact.php" method="post">
+    <form name="contact" action="contact.php" method="post">
     <div>
         <br />
     <label id="contactName">Name:&nbsp;&nbsp; &nbsp;</label>
         <input type="text" name="contactName" id="contactName" value=""/>
     </div>
     <br />
-    <div>
+    <div
+        <input type="submit" value="Submit" />>
         <label id="contactMsg">Message: </label>
         <textarea rows="10" cols="30" id="contactMsg" name="contactMsg" value=""></textarea>
-    </div
-        <input type="submit" value="Submit" />
-        gfrhsgfh</form>
+    </div>
+    <div><button name="" type="submit" form="contact"></button></div>
+
+    </form>
 
 </div>
 <p>
