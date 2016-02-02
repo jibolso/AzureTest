@@ -8,15 +8,13 @@
 <nav><a href="index.html">Home</a> &nbsp; <a href="contact.php">Contact</a> </nav>
 <div>
     <div>
-    <label id="contactName">Name:
+    <label id="contactName">Name: </label>
         <input type="text" name="contactName" id="contactName" />
-    </label
     </div>
+    <br />
     <div>
-        <label id="contactMsg">Message:
-            <textarea rows="20" cols="30" id="contactMsg" name="contactMsg"></textarea>
-        </label>
-
+        <label id="contactMsg">Message: </label>
+        <textarea rows="10" cols="30" id="contactMsg" name="contactMsg"></textarea>
     </div>
 
 </div>
