@@ -26,11 +26,11 @@ if(isset($_POST['contactName']) && isset($_POST['contactMsg'])){
     </div>
     <br />
     <div
-        <input type="submit" value="Submit" />>
+        <input type="submit" value="Submit" />
         <label id="contactMsg">Message: </label>
         <textarea rows="10" cols="30" id="contactMsg" name="contactMsg" value=""></textarea>
     </div>
-    <div><button name="" type="submit" form="contact"></button></div>
+    <div><button name="" type="submit" form="contact">Submit</button></div>
 
     </form>
 
