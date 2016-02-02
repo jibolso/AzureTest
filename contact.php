@@ -20,6 +20,7 @@ if(isset($_POST['contactName']) && isset($_POST['contactMsg'])){
 <div>
     <form action="contact.php" method="post">
     <div>
+        <br />
     <label id="contactName">Name:&nbsp;&nbsp; &nbsp;</label>
         <input type="text" name="contactName" id="contactName" value=""/>
     </div>
@@ -30,7 +31,6 @@ if(isset($_POST['contactName']) && isset($_POST['contactMsg'])){
     </div
         <input type="submit" value="Submit" />
         </form>
-    <
 
 </div>
 <p>
