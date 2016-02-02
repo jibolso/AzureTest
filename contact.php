@@ -7,13 +7,17 @@
 <header><h2>Azure Deployment Test | Contact</h2></header>
 <nav><a href="index.html">Home</a> &nbsp; <a href="contact.php">Contact</a> </nav>
 <div>
-    <
-    <label id="contactName">Name: 
+    <div>
+    <label id="contactName">Name:
         <input type="text" name="contactName" id="contactName" />
     </label
-    <label id="contactMsg">Message:
-        <textarea rows="20" cols="30" id="contactMsg" name="contactMsg"></textarea>
-    </label>
+    </div>
+    <div>
+        <label id="contactMsg">Message:
+            <textarea rows="20" cols="30" id="contactMsg" name="contactMsg"></textarea>
+        </label>
+
+    </div>
 
 </div>
 <p>Email: a.e.obayemi@rgu.ac.uk</p>
