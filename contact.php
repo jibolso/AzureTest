@@ -3,7 +3,7 @@ if(isset($_POST['contactName']) && isset($_POST['contactMsg'])){
     $contactName = $_POST['contactName'];
     $contactMsg = $_POST['contactMsg'];
     $populated = true;
-    mail("jibolso@gmail.com", "Contact Form Message" );
+    mail("jibolso@gmail.com", "Contact Form Message", $contactMsg);
 }else {
     $_POST['contactName']= "";
     $_POST['contactMsg'] = "";
