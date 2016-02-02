@@ -30,7 +30,7 @@ if(isset($_POST['contactName']) && isset($_POST['contactMsg'])){
         <textarea rows="10" cols="30" id="contactMsg" name="contactMsg" value=""></textarea>
     </div
         <input type="submit" value="Submit" />
-        </form>
+        gfrhsgfh</form>
 
 </div>
 <p>
