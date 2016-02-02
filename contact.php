@@ -27,8 +27,8 @@ if(isset($_POST['contactName']) && isset($_POST['contactMsg'])){
     <div>
         <label id="contactMsg">Message: </label>
         <textarea rows="10" cols="30" id="contactMsg" name="contactMsg" value=""></textarea>
-    </div>
-        <button type="submit">Submit</button>
+    </div
+        <input type="submit" value="Submit" />
         </form>
 
 </div>
