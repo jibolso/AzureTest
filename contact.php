@@ -20,7 +20,7 @@ if(isset($_POST['contactName']) && isset($_POST['contactMsg'])){
 <div>
     <form action="contact.php" method="post">
     <div>
-    <label id="contactName">Name: </label>
+    <label id="contactName">Name:&nbsp;:&nbsp; </label>
         <input type="text" name="contactName" id="contactName" value=""/>
     </div>
     <br />
@@ -35,6 +35,7 @@ if(isset($_POST['contactName']) && isset($_POST['contactMsg'])){
 <p>
     <?php
     if($populated){
+        echo "Message Sent" . '<br />';
         echo "Contact Name: " . $contactName . '<br />';
         echo "Message: " . $contactMsg . '<br />';
     }
